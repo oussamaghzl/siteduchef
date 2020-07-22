@@ -9669,9 +9669,18 @@ body {
   margin: 0px;
 }
 
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+  width: 65%;
+}
+
+header {
+  max-width: max-content;
+  max-height: max-content;
+}
+
 header .images {
   width: 100%;
-  height: 100%;
+  height: 800px;
   position: absolute;
   filter: brightness(20%);
 }
@@ -9691,6 +9700,33 @@ header ul li:hover {
 
 header ul li a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
+}
+
+.carousel-item h1 {
+  font-family: 'Courgette', cursive;
+  font-size: 70px;
+  margin-bottom: 180px;
+}
+
+.sp1 {
+  text-transform: uppercase;
+  font-size: 100px;
+}
+
+.sp2 {
+  text-transform: uppercase;
+  font-size: 100px;
+  color: #dd003f;
+}
+
+.sp3 {
+  font-size: 90px;
+}
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
 }
