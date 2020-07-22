@@ -9669,7 +9669,7 @@ body {
   margin: 0px;
 }
 
-header img:first-child {
+header .images {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -9680,20 +9680,16 @@ header .container {
   position: relative;
 }
 
-nav img {
-  height: 50px;
-}
-
-nav ul {
+header ul {
   border-bottom: solid 1px white;
   border-top: solid 1px white;
 }
 
-nav ul li:hover {
+header ul li:hover {
   background-color: #dd003f;
 }
 
-nav ul li a {
+header ul li a {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 500;
