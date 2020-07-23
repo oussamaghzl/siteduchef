@@ -58,9 +58,13 @@ header
         border-radius: 100%        
 
 // Premiere section
-#fondmenu
-    max-width: max-content
-#fondmenu2
+.coin
+    display: flex
+    justify-content: space-between 
+    align-items: center
+#fond
+    width: 100%
+#fond2
     width: 90%
     background-color: white
     padding: 0
@@ -78,14 +82,8 @@ h2
     color: #dd003f 
     text-transform: uppercase
 
-
-    
 //Our menu
-
- 
-        
-
-     
+   
 section
     &:nth-child(2)
         a 
@@ -116,6 +114,8 @@ section
                 background-color: #cbcbcb 
                 color: #dd003f 
 
+
+
 // Deuxieme Section
 
 .chefcuis
@@ -131,4 +131,62 @@ section
                         border-bottom: solid 1px #cbcbcb
                     span 
                         color: white
+                
 
+
+// Troisieme Section
+
+.reservation
+    text-align: center
+.book
+    border-radius: 20px
+    background-size: cover
+    width: 70%
+    text-align: center
+    margin-left: auto
+    margin-right: auto
+
+section
+    &:nth-child(4)
+        p
+            font-size: 20px
+            color: #cbcbcb
+        .span1
+            font-size: 30px
+            color: white
+        .formulaire
+            border-radius: 15px
+        button
+            border-radius: 30px
+form
+    width: 60%
+
+// Our Blog
+.blog
+    text-align: center
+.cardplat
+    margin: 0
+    width: 100%
+   
+
+section
+    &:nth-child(4)
+        .card-body
+            text-align: center
+            padding-bottom: 0
+        a 
+            font-size: 20px
+            
+        .card
+            border: none
+        .card-img-top
+            border: solid #cbcbcb 5px 
+            border-radius: 30px
+        .taillecard
+            font-size: 20px
+        .btn
+            background-color: #dd003f        
+            border: none
+            border-radius: 10px
+            margin-top: -20%
+        
