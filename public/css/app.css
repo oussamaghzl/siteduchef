@@ -9806,3 +9806,20 @@ section:nth-child(2) .col-6 span {
   background-color: #cbcbcb;
   color: #dd003f;
 }
+
+.chefcuis:nth-child(3) {
+  text-align: center;
+  background-color: black;
+}
+
+.chefcuis:nth-child(3) div:nth-child(3) .col-3 {
+  display: inline-block;
+}
+
+.chefcuis:nth-child(3) div:nth-child(3) .col-3 img {
+  border-bottom: solid 1px #cbcbcb;
+}
+
+.chefcuis:nth-child(3) div:nth-child(3) .col-3 span {
+  color: white;
+}
