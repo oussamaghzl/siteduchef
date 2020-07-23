@@ -9698,21 +9698,21 @@ header nav ul li a {
   font-size: 15px;
 }
 
-.col-5 {
+header:first-child .col-5 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 0;
 }
 
-.col-6 {
+header:first-child .col-6 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding: 0;
 }
 
-.col-1 {
+header:first-child .col-1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9744,4 +9744,65 @@ header nav ul li a {
   width: 15px;
   height: 15px;
   border-radius: 100%;
+}
+
+#fondmenu {
+  max-width: max-content;
+}
+
+#fondmenu2 {
+  width: 90%;
+  background-color: white;
+  padding: 0;
+}
+
+#menu {
+  width: 100%;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Courgette', cursive;
+  font-size: 50px;
+}
+
+.h2red {
+  font-size: 60px;
+  color: #dd003f;
+  text-transform: uppercase;
+}
+
+section:nth-child(2) a {
+  text-align: center;
+  width: 100%;
+  border: solid 1px whitesmoke;
+}
+
+section:nth-child(2) i {
+  font-size: 400%;
+  color: #cbcbcb;
+}
+
+section:nth-child(2) h3 {
+  color: black;
+  font-family: 'Courgette', cursive;
+}
+
+section:nth-child(2) .col-6 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  max-width: max-content;
+  border-bottom: dashed 1px #cbcbcb;
+}
+
+section:nth-child(2) .col-6 img {
+  width: 25%;
+  border-radius: 100%;
+  border: solid #cbcbcb 5px;
+}
+
+section:nth-child(2) .col-6 span {
+  background-color: #cbcbcb;
+  color: #dd003f;
 }

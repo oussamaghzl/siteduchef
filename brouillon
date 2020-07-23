@@ -1,0 +1,167 @@
+<div class="col-6 d-inline-block">
+
+                  <div class="row cardd list-unstyled">
+
+                    <li><img class="mb-3" src="./public/img/menu_image_1.jpg" style="border-radius: 100%;" alt=""></li>
+
+                    <div class="w-50">
+                      <strong>Lorem ipsum dolor sit amet.</strong>
+                      <p>Lorem, ipsum dolor sit amet, adipisci ipsum dolor similique!</p>
+                    </div>
+                    <span class="px-3">$ 25</span>                  
+                  </div>
+                  
+                  <div class="row cardd list-unstyled">
+
+                    <li><img class="my-3" src="./public/img/menu_image_1.jpg" style="border-radius: 100%;" alt=""></li>
+
+                    <div class="w-50">
+                      <strong>Lorem ipsum dolor sit amet.</strong>
+                      <p>Lorem, ipsum dolor sit amet, adipisci ipsum dolor similique!</p>
+                    </div>
+                    <span class="px-3">$ 25</span>                  
+                  </div>
+                  <div class="row cardd list-unstyled">
+
+                    <li><img class="my-3" src="./public/img/menu_image_1.jpg" style="border-radius: 100%;" alt=""></li>
+
+                    <div class="w-50">
+                      <strong>Lorem ipsum dolor sit amet.</strong>
+                      <p>Lorem, ipsum dolor sit amet, adipisci ipsum dolor similique!</p>
+                    </div>
+                    <span class="px-3">$ 25</span>                  
+                  </div>
+                  <div class="row cardd list-unstyled">
+
+                    <li><img class="my-3" src="./public/img/menu_image_1.jpg" style="border-radius: 100%;" alt=""></li>
+
+                    <div class="w-50">
+                      <strong>Lorem ipsum dolor sit amet.</strong>
+                      <p>Lorem, ipsum dolor sit amet, adipisci ipsum dolor similique!</p>
+                    </div>
+                    <span class="px-3">$ 25</span>                  
+                  </div>
+                  <div class="row cardd list-unstyled">
+
+                    <li><img class="my-3" src="./public/img/menu_image_1.jpg" style="border-radius: 100%;" alt=""></li>
+
+                    <div class="w-50">
+                      <strong>Lorem ipsum dolor sit amet.</strong>
+                      <p>Lorem, ipsum dolor sit amet, adipisci ipsum dolor similique!</p>
+                    </div>
+                    <span class="px-3">$ 25</span>                  
+                  </div>
+                </div>
+
+              <!-- colonne droite du menu -->
+              <div class="col-6 d-inline-block">
+
+                <div class="row cardd list-unstyled">
+
+                  <li><img class="mb-3" src="./public/img/menu_image_1.jpg" style="border-radius: 100%;" alt=""></li>
+
+                  <div class="w-50">
+                    <strong>Lorem ipsum dolor sit amet.</strong>
+                    <p>Lorem, ipsum dolor sit amet, adipisci ipsum dolor similique!</p>
+                  </div>
+                  <span class="px-3">$ 35</span>
+                </div>
+                <div class="row cardd list-unstyled">
+
+                  <li><img class="my-3" src="./public/img/menu_image_1.jpg" style="border-radius: 100%;" alt=""></li>
+
+                  <div class="w-50">
+                    <strong>Lorem ipsum dolor sit amet.</strong>
+                    <p>Lorem, ipsum dolor sit amet, adipisci ipsum dolor similique!</p>
+                  </div>
+                  <span class="px-3">$ 35</span>                  
+                </div>
+                <div class="row cardd list-unstyled">
+
+                  <li><img class="my-3" src="./public/img/menu_image_1.jpg" style="border-radius: 100%;" alt=""></li>
+
+                  <div class="w-50">
+                    <strong>Lorem ipsum dolor sit amet.</strong>
+                    <p>Lorem, ipsum dolor sit amet, adipisci ipsum dolor similique!</p>
+                  </div>
+                  <span class="px-3">$ 35</span>                  
+                </div>
+                <div class="row cardd list-unstyled">
+
+                  <li><img class="my-3" src="./public/img/menu_image_1.jpg" style="border-radius: 100%;" alt=""></li>
+
+                  <div class="w-50">
+                    <strong>Lorem ipsum dolor sit amet.</strong>
+                    <p>Lorem, ipsum dolor sit amet, adipisci ipsum dolor similique!</p>
+                  </div>
+                  <span class="px-3">$ 35</span>                  
+                </div>
+                <div class="row cardd list-unstyled">
+
+                  <li><img class="my-3" src="./public/img/menu_image_1.jpg" style="border-radius: 100%;" alt=""></li>
+
+                  <div class="w-50">
+                    <strong>Lorem ipsum dolor sit amet.</strong>
+                    <p>Lorem, ipsum dolor sit amet, adipisci ipsum dolor similique!</p>
+                  </div>
+                  <span class="px-3">$ 35</span>                  
+                </div>
+                  
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                section
+    &:nth-child(2)
+        a 
+            text-align: center
+            width: 100%
+            border: solid 1px whitesmoke
+        i
+            font-size: 400%
+            color: #cbcbcb        
+        h3 
+            color: black
+            font-family: 'Courgette', cursive
+
+.col-3
+    padding: 0
+
+    
+.col-9
+    padding: 0  
+    width: 100%   
+.cardd
+    display: flex
+    align-items: center
+    width: 95%
+    border-bottom: dashed 1px #cbcbcb
+    margin: 0
+
+    img
+        width: 75%
+        border: solid #cbcbcb 5px 
+    span
+        color: #dd003f 
+        background-color: #cbcbcb
+
+.w-50
+    text-align: start
