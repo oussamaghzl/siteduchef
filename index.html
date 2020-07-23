@@ -10,75 +10,74 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
-      <img class="images" src="./public/img/banner1.jpg" alt="">
-      <!-- container pour la nav -->
+    <header style="background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url('./public/img/banner1.jpg')">
+        <!-- Container  -->
       <div class="container-fluid">
-          <!-- Nav -->
-          <nav class="navbar navbar-expand-lg mb-5 navbar-light text-light">
-                <ul class="navbar-nav text-center">
-                    <li class="nav-item active">
-                      <a class="nav-link px-4 py-3 text-light" href="#">Home </a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link px-4 py-3 text-light" href="#">About Us </a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link px-4 py-3 text-light" href="#">MEnu list </a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link px-4 py-3 text-light" href="#">TEam </a>
-                      </li>
-                </ul>
-              
-                <div class="collapse navbar-collapse d-flex justify-content-center id="navbarSupportedContent">
-                  <a href=""><img class="Images" src="./public/img/logo.png" alt=""></a>
-                </div>
+      <!-- Nav -->
+        <nav class="d-flex pb-5 pt-5">
+          <!-- coté gauche -->
+          <div class="col-5">
+            <ul class="list-unstyled d-flex " >
+              <li class="nav-item active">
+                <a class="nav-link text-light " href="#">Home </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-light " href="#">About us </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-light " href="#">Menu list </a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link text-light " href="#">Team </a>
+                </li>
+            </ul>
+          </div>
+          <!-- logo -->
+          <div class="col-1">
+            <a href=""><img src="./public/img/logo.png" alt=""></a>
+          </div>
+          <!-- Cote droit -->
+          <div class="col-6 ">
+            <ul class="list-unstyled d-flex " >
+              <li class="nav-item active">
+                <a class="nav-link text-light " href="#">Reservation </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-light " href="#">Blog </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-light " href="#">Testimonials </a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link text-light " href="#">Contact Us </a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+      <!-- Carousel -->
 
-                <form class="form-inline my-2 my-lg-0">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link px-4 py-3 text-light" href="#">Reservation <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link px-4 py-3 text-light" href="#">Blog <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link px-4 py-3 text-light" href="#">Testimonials <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link px-4 py-3 text-light" href="#">Contact Us <span class="sr-only">(current)</span></a>
-                          </li>
-                      </ul>
-                </form>
-            </nav>
-                      <!-- Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide pt-5" data-ride="carousel">
+          <ol class="carousel-indicators ">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h1 class="p-5 text-center text-white">Whatever your <span class="sp1">occasion,</span><span class="sp2">&nbsp; Taste</span> <span class="sp3">makes</span> it one to <span class="sp3">remember!</span></strong></h1>
+            </div>
+            <div class="carousel-item">
+              <h1 class="p-5 text-center text-white">Whatever your <span class="sp1">occasion,</span><span class="sp2">&nbsp; Taste</span> <span class="sp3">makes</span> it one to <span class="sp3">remember!</span></strong></h1>
+            </div>
+            <div class="carousel-item">
+              <h1 class="p-5 text-center text-white">Whatever your <span class="sp1">occasion,</span><span class="sp2">&nbsp; Taste</span> <span class="sp3">makes</span> it one to <span class="sp3">remember!</span></strong></h1>
+            </div>
+          </div>
+        </div>
+    </div>        
 
-                      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <h1 class="p-5 text-center text-white">Whatever your <span class="sp1">occasion,</span><span class="sp2">&nbsp; Taste</span> <span class="sp3">makes</span> it one to <span class="sp3">remember!</span></strong></h1>
-                          </div>
-                          <div class="carousel-item">
-                            <h1 class="p-5 text-center text-white">Whatever your <span class="sp1">occasion,</span><span class="sp2">&nbsp; Taste</span> <span class="sp3">makes</span> it one to <span class="sp3">remember!</span></strong></h1>
-                          </div>
-                          <div class="carousel-item">
-                            <h1 class="p-5 text-center text-white">Whatever your <span class="sp1">occasion,</span><span class="sp2">&nbsp; Taste</span> <span class="sp3">makes</span> it one to <span class="sp3">remember!</span></strong></h1>
-                          </div>
-                        </div>
-                        
-                      </div>    
-
-
-
-
-      </div>
-    </header>
+</header>
+    
   
     
     <script src="./node_modules/jquery/dist/jquery.js"></script>

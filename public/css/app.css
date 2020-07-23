@@ -9666,48 +9666,63 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
-  margin: 0px;
+  margin: 0;
 }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
-  width: 65%;
+  width: 70%;
 }
 
 header {
-  max-width: max-content;
+  height: 1000px;
   max-height: max-content;
 }
 
-header .images {
-  width: 100%;
-  height: 800px;
-  position: absolute;
-  filter: brightness(20%);
+header nav ul {
+  max-width: max-content;
+  display: flex;
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
 }
 
-header .container {
-  position: relative;
+header nav ul li {
+  padding: 5px;
 }
 
-header ul {
-  border-bottom: solid 1px white;
-  border-top: solid 1px white;
-}
-
-header ul li:hover {
+header nav ul li:hover {
   background-color: #dd003f;
 }
 
-header ul li a {
+header nav ul li a {
   text-transform: uppercase;
   font-size: 15px;
-  font-weight: 500;
+}
+
+.col-5 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+}
+
+.col-6 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+
+.col-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 
 .carousel-item h1 {
   font-family: 'Courgette', cursive;
   font-size: 70px;
-  margin-bottom: 180px;
+  margin-bottom: 300px;
 }
 
 .sp1 {
