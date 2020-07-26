@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,11 +11,12 @@
 </head>
 <body>
     <!-- Header -->
-    <header style="background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url('./public/img/banner1.jpg')">
+  
+    <header class="backgroundhead" style=" background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url('./public/img/banner1.jpg');">
         <!-- Container  -->
       <div class="container-fluid">
       <!-- Nav -->
-        <nav class="d-flex pb-5 pt-5">
+        <nav class="d-flex ">
           <!-- coté gauche -->
           <div class="col-5">
             <ul class="list-unstyled d-flex " >
@@ -57,33 +59,54 @@
       <!-- Carousel -->
 
         <div id="carouselExampleIndicators" class="carousel slide pt-5" data-ride="carousel">
-          <ol class="carousel-indicators ">
+          <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <h1 class="p-5 text-center text-white">Whatever your <span class="sp1">occasion,</span><span class="sp2">&nbsp; Taste</span> <span class="sp3">makes</span> it one to <span class="sp3">remember!</span></strong></h1>
+          <div class="carousel-inner d-inline">
+            <div class="carousel-item active text-center">
+              <h1 class="m-0 text-center text-white">Whatever your <span class="sp1">occasion,</span><span class="sp2">&nbsp; Taste</span> <span class="sp3">makes</span> it one to <span class="sp3">remember!</span></strong></h1>
+              <div class="boutonhead">
+                <button type="button" class=" btn btn-light mx-1 ">PURCHASE THEME</button>
+                <button type="button" class=" btn btn-danger ">LEARN MORE</button>
+              </div>
             </div>
-            <div class="carousel-item">
-              <h1 class="p-5 text-center text-white">Whatever your <span class="sp1">occasion,</span><span class="sp2">&nbsp; Taste</span> <span class="sp3">makes</span> it one to <span class="sp3">remember!</span></strong></h1>
+            <div class="carousel-item text-center">
+              <h1 class="m-0 text-center text-white">Whatever your <span class="sp1">occasion,</span><span class="sp2">&nbsp; Taste</span> <span class="sp3">makes</span> it one to <span class="sp3">remember!</span></strong></h1>
+              <div class="boutonhead">
+                <button type="button" class=" btn btn-light mx-1 ">PURCHASE THEME</button>
+                <button type="button" class=" btn btn-danger ">LEARN MORE</button>
+              </div>
             </div>
-            <div class="carousel-item">
-              <h1 class="p-5 text-center text-white">Whatever your <span class="sp1">occasion,</span><span class="sp2">&nbsp; Taste</span> <span class="sp3">makes</span> it one to <span class="sp3">remember!</span></strong></h1>
+            <div class="carousel-item text-center">
+              <h1 class="m-0 text-center text-white">Whatever your <span class="sp1">occasion,</span><span class="sp2">&nbsp; Taste</span> <span class="sp3">makes</span> it one to <span class="sp3">remember!</span></strong></h1>
+              <div class="boutonhead">
+                <button type="button" class=" btn btn-light mx-1 ">PURCHASE THEME</button>
+                <button type="button" class=" btn btn-danger ">LEARN MORE</button>
+              </div>
             </div>
+            
           </div>
         </div>
-    </div>        
-</header>
+
+        
+      </div>        
+    </header>
+  
+
 
   <!-- Premiere section -->
-  <section id="fond" class="py-5"  style="background-image: url('./public/img/main_bg.jpg');">
+  <section id="fond" class="pb-5 w-100"  style="background-image: url('./public/img/main_bg.jpg');">
+    <div class="pb-5">
+      <div class="" style="height: 10px; background-color: #2C2C2D; background-image: url('./public/img/bottom_decoration_img.png');"></div>
+    </div>
+      
     <!-- <img class="py-5" src="./public/img/bottom_decoration_img.png" alt=""> -->
     <div id="fond2" class="container-fluid w-70">
       <div class="coinrouge d-flex justify-content-between">
-        <img src="./public/img/box-left-top.png" alt="">
-        <img src="./public/img/box-right-top.png" alt="">
+        <img class="coin" src="./public/img/box-left-top.png" alt="">
+        <img class="coin2" src="./public/img/box-right-top.png" alt="">
       </div>
       
       <!-- Our story -->
@@ -124,7 +147,7 @@
                 <i class="fas fa-mug-hot pb-3"></i>
                 <h3>Dinner</h3>
               </a>
-
+              
             </div>
           </div>
 
@@ -513,9 +536,9 @@
           
         </div>
         <div class="coin pt-5">
-          <img src="./public/img/box-bottom-left.png" alt="">
+          <img class="coin" src="./public/img/box-bottom-left.png" alt="">
           <img style="height: 100%;" src="./public/img/decoration_line.png" alt="">
-          <img src="./public/img/box-bottom_right.png" alt="">
+          <img class="coin2" src="./public/img/box-bottom_right.png" alt="">
         </div>
       </div>
       
@@ -527,7 +550,7 @@
   
     
   <section class="chefcuis py-5">
-    <h2><span class="h2red py-5">Meet</span> Our Chef</h2>
+    <h2 class="text-light"><span class="h2red py-5">Meet</span> Our Chef</h2>
     <img class="py-5" src="./public/img/decoration_line.png" alt="">
 
     <div class="d-flex container-fluid w-95">
@@ -744,8 +767,8 @@
 
   <!-- Footer -->
 
-  <footer>
-    <div class="row py-5 text-light " style="background-image: url(./public/img/footer_background.jpg);">
+  <footer >
+    <div class="row py-5 text-light m-0 backgroundfooter" style="background-image: url(./public/img/footer_background.jpg);">
       <div class="d-flex mx-5">
       <div class="col-4">
         <h3 class="pb-3">ABOUT US</h3>

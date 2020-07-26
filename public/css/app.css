@@ -9669,13 +9669,69 @@ body {
   margin: 0;
 }
 
+@media (min-width: 0px) and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  header:first-child {
+    background-size: cover;
+  }
+  header:first-child h1 {
+    font-size: 30px;
+  }
+  header:first-child span {
+    font-size: 35px;
+  }
+  header:first-child button {
+    padding: 3%;
+    font-size: 10px;
+  }
+  header:first-child nav {
+    padding: 0% 0px;
+  }
+  header:first-child a {
+    padding: 0px;
+  }
+  header:first-child .container-fluid, header:first-child .container-sm, header:first-child .container-md, header:first-child .container-lg, header:first-child .container-xl {
+    margin: 0px auto;
+  }
+  section:nth-child(2) .coin {
+    width: 20%;
+    height: 20%;
+    margin-left: 0px;
+  }
+  section:nth-child(2) .coin2 {
+    margin-left: 100%;
+    width: 20%;
+    height: 20%;
+  }
+  section:nth-child(2) img {
+    margin: 0px auto;
+    width: 100%;
+  }
+  section:nth-child(2) p {
+    font-size: 15px;
+  }
+  section:nth-child(3) .col-3 {
+    max-width: max-content;
+  }
+  section:nth-child(3) img {
+    height: 10%;
+    margin: 0px 5%;
+  }
+}
+
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   width: 70%;
 }
 
-header {
-  height: 1000px;
-  max-height: max-content;
+.backgroundhead {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 header nav ul {
@@ -9686,7 +9742,7 @@ header nav ul {
 }
 
 header nav ul li {
-  padding: 5px;
+  padding: 0px;
 }
 
 header nav ul li:hover {
@@ -9695,7 +9751,22 @@ header nav ul li:hover {
 
 header nav ul li a {
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 80%;
+}
+
+header:first-child img {
+  width: 120%;
+  padding: 10%;
+}
+
+header:first-child .boutonhead {
+  margin-top: 5%;
+  margin-bottom: 20%;
+}
+
+header:first-child button {
+  margin: 20px;
+  border-radius: 35px;
 }
 
 header:first-child .col-5 {
@@ -9722,7 +9793,7 @@ header:first-child .col-1 {
 .carousel-item h1 {
   font-family: 'Courgette', cursive;
   font-size: 70px;
-  margin-bottom: 300px;
+  margin: 0;
 }
 
 .sp1 {
@@ -9744,6 +9815,11 @@ header:first-child .col-1 {
   width: 15px;
   height: 15px;
   border-radius: 100%;
+}
+
+.imagebacktop {
+  background-color: black;
+  width: 100%;
 }
 
 .coin {
@@ -9899,7 +9975,7 @@ section:nth-child(4) .taillecard {
 section:nth-child(4) .btn {
   background-color: #dd003f;
   border: none;
-  border-radius: 10px;
+  border-radius: 100px;
   margin-top: -20%;
 }
 
@@ -9920,8 +9996,17 @@ section:nth-child(5) div:nth-child(2) img {
 
 section:nth-child(5) .card {
   border: none;
+  width: 100%;
 }
 
 section:nth-child(5) .card-body {
   border: 1px solid white;
+}
+
+.backgroundfooter::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 20px;
+  top: 40px;
 }
