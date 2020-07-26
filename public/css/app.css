@@ -9698,29 +9698,84 @@ body {
   header:first-child .container-fluid, header:first-child .container-sm, header:first-child .container-md, header:first-child .container-lg, header:first-child .container-xl {
     margin: 0px auto;
   }
-  section:nth-child(2) .coin {
+  section:nth-child(2) .cointr {
     width: 20%;
     height: 20%;
-    margin-left: 0px;
+    margin-left: 0%;
   }
-  section:nth-child(2) .coin2 {
-    margin-left: 100%;
+  section:nth-child(2) .cointr2 {
+    margin-right: 0%;
     width: 20%;
     height: 20%;
   }
   section:nth-child(2) img {
-    margin: 0px auto;
+    margin-left: auto;
     width: 100%;
   }
+  section:nth-child(2) strong {
+    font-size: 11px;
+  }
   section:nth-child(2) p {
-    font-size: 15px;
+    font-size: 10px;
+  }
+  section:nth-child(2) .icone {
+    font-size: 40px;
+  }
+  section:nth-child(2) h3 {
+    font-size: 13px;
   }
   section:nth-child(3) .col-3 {
     max-width: max-content;
+    padding: 0px 0px;
   }
   section:nth-child(3) img {
-    height: 10%;
-    margin: 0px 5%;
+    height: 100px;
+  }
+  section:nth-child(4) p {
+    font-size: 8px;
+  }
+  section:nth-child(4) .span1 {
+    font-size: 5px;
+  }
+  section:nth-child(4) .formulaire {
+    width: 100px;
+    margin: auto;
+  }
+  section:nth-child(4) .btn {
+    font-size: 10px;
+  }
+  section:nth-child(5) img {
+    margin-left: auto;
+    width: 100%;
+  }
+  section:nth-child(5) .row {
+    margin: 0;
+  }
+  section:nth-child(5) p {
+    font-size: 8px;
+  }
+  footer p {
+    font-size: 8px;
+  }
+  footer img {
+    height: 35px;
+  }
+  footer .col-4 {
+    padding: 0;
+    padding: 3px;
+  }
+  footer h3 {
+    font-size: 13px;
+  }
+  footer i {
+    font-size: 10px;
+  }
+  footer .btn {
+    font-size: 10px;
+    margin-left: 35px;
+  }
+  footer .lastcol {
+    display: inline-block;
   }
 }
 
@@ -9889,6 +9944,18 @@ section:nth-child(2) .col-6 span {
   color: #dd003f;
 }
 
+section:nth-child(2) .cointr {
+  width: 150px;
+  height: 150px;
+  margin-left: 0%;
+}
+
+section:nth-child(2) .cointr2 {
+  margin-left: 85%;
+  width: 150px;
+  height: 150px;
+}
+
 .chefcuis:nth-child(3) {
   text-align: center;
   background-color: black;
@@ -9969,7 +10036,7 @@ section:nth-child(4) .card-img-top {
 }
 
 section:nth-child(4) .taillecard {
-  font-size: 20px;
+  font-size: 10%;
 }
 
 section:nth-child(4) .btn {
@@ -9996,7 +10063,7 @@ section:nth-child(5) div:nth-child(2) img {
 
 section:nth-child(5) .card {
   border: none;
-  width: 100%;
+  width: 60%;
 }
 
 section:nth-child(5) .card-body {
@@ -10009,4 +10076,8 @@ section:nth-child(5) .card-body {
   position: absolute;
   height: 20px;
   top: 40px;
+}
+
+.btn {
+  margin-right: 10px;
 }
